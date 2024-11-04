@@ -114,7 +114,7 @@ int main()
 	std::string texPath = "/Resources/YoutubeOpenGL 7 - Going 3D/";
 
 	// Texture
-	Texture brickTex((parentDir + texPath + "brick.png").c_str(), GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
+	Texture brickTex((parentDir + texPath + "Dado.png").c_str(), GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
 	brickTex.texUnit(shaderProgram, "tex0", 0);
 
 	// Original code from the tutorial
